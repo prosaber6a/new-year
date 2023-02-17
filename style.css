@@ -1,0 +1,195 @@
+* {
+    margin: 0px;
+    font-family: 'Work Sans';
+
+}
+
+header {
+    background-image: url(images/banner/banner3.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    /* padding: 216px 225px; */
+}
+
+.hero-content {
+    width: 300px;
+    text-align: right;
+    padding: 216px 225px;
+    
+}
+
+
+
+.home-title {
+    color: #FFFFFF;
+    Font-style: Bold;
+    Font-size: 40px;
+
+}
+
+.home-description {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 20px 0px;
+}
+
+.home-button {
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #005FAC;
+
+}
+/* failer section */
+.failer-section{
+    margin-top:100px ;
+    
+}
+.my-failer{
+    display: flex;
+    gap:80px
+}
+.failer-title{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.failer-descreption{
+margin-top: 300px;
+}
+.failer-paragraph{
+ margin-bottom: 16px;
+ color: #444343;
+ font-size: 16px;
+}
+.point-paragraph p{
+ margin: 8px 0px;
+ color: #444343;
+ font-size: 16px;
+}
+.point-paragraph i{
+    color: skyblue;
+}
+/* my plans */
+.myplan{
+    margin-top: 130px;
+}
+.plans{
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+.that-i-do{
+    display: flex;
+    /* align-items: center; */
+    justify-content:space-evenly;
+    margin-top: 55px;
+}
+.my-task{
+    margin-right: 50px;
+    text-align: center;
+}
+.task-title{
+    margin: 16px 0px;
+    font-weight: 600;
+    font-size: 22px;
+}
+.task-subtitle{
+    font-size: 15px;
+    color:#737272;
+    Font-style: Medium;
+    font-weight: 500;
+}
+/* positive mindset */
+.watch-image{
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),  url('images/watch.png') no-repeat center;
+    height: 250px;
+    /* width: ; */
+    
+    margin: 180px 230px;
+    border-radius: 5px;
+
+}
+.watch-ttile-button{
+    padding-top: 60px;
+    padding-left: 75px;
+    padding-right: 500px;
+}
+.watch-title{
+   margin-bottom: 35px;
+   color: #FFFFFF;
+}
+.watch-button {
+    /* margin-top: 40px; */
+    
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    color: #005FAC;
+    font-weight: 500;
+    padding:15px 30px;
+   
+    background: #FFFFFF;
+    
+}
+/* footer */
+.footer{
+    display: flex;
+    background: black;
+}
+.future .subcribe{
+    margin-top: 100px;
+}
+.future{
+    padding: 130px 350px 205px 230px;
+}
+
+.subcribe{
+    padding: 130px 230px 0px 0px;
+}
+.future-title {
+    color:#ffffff;
+    margin-bottom: 16px;
+}
+.future-paragraph{
+    margin-bottom: 24px; 
+    color:#ffffff;
+}
+.email{
+    margin-bottom: 10px;
+    color:#ffffff;
+}
+.phone{
+    color:#ffffff;
+
+}
+.icon{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    /* margin-left: 30px; */
+}
+.subscribe-title{
+    color:#ffffff;
+    margin-bottom: 16px;
+
+}
+#email{
+    margin-bottom: 30px;
+    padding: 10px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+.subcribe-button{
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    color: #ececec;
+    font-weight: 500;
+    padding:15px 30px;
+   
+    background: #005FAC;
+}
